@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+body {
+	font-family: "Arial", Helvetica, sans-serif;
+	margin: 20px;
+	background-color: #b4d4ff;
+}
+
+nav {
+  background-color: #eef5ff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 60px;
+  max-width: 5000px;
+  max-height: 5000px;
+}
+
+h1 {
+  color: #86b6f6;
+  font-size: 48px;
+  text-align: center;
+}
+
+input,
+button {
+	margin: 10px;
+	padding: 10px;
+  background-color: #86b6f6;
+  border: none;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 110px;
+}
+
+#data {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img {
+	width: 150px;
+	border-radius: 10px;
+  margin-top: 20px;
+  border: 3px solid #000;
+  transition: 0.5s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+.BuyBtn,
+.RemoveBtn {
+	height: 95%;
+	background-color: #86b6f6;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 110px;
+  font-size: 18px;
+}
+
+.BuyBtn:hover,
+.RemoveBtn:hover {
+	background-color: #b4d4ff;
+}
+
+td {
+	height: 62px;
+}
+
+#menu table,
+#order table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+#menu tbody,
+#order tbody {
+	border: 1px solid #ddd;
+}
+
+#menu tr:nth-child(3n),
+#order tr:nth-child(3n) {
+	border-bottom: 1px solid #ddd;
+}
+
+#clearBill {
+  height: 90%;
+	background-color: #86b6f6;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 110px;
+  font-size: 18px;
+}
